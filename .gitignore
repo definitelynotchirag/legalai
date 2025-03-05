@@ -1,2 +1,4 @@
 node_modules
 .bolt
+__pycache__
+venv

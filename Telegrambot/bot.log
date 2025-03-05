@@ -1,0 +1,108 @@
+2025-03-05 15:47:01,083 - __main__ - INFO - Starting bot...
+2025-03-05 15:47:01,180 - pyrogram.connection.connection - INFO - Connecting...
+2025-03-05 15:47:01,341 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4
+2025-03-05 15:47:01,341 - pyrogram.session.session - INFO - NetworkTask started
+2025-03-05 15:47:02,054 - pyrogram.session.session - INFO - Session initialized: Layer 158
+2025-03-05 15:47:02,054 - pyrogram.session.session - INFO - Device: CPython 3.12.9 - Pyrogram 2.0.106
+2025-03-05 15:47:02,054 - pyrogram.session.session - INFO - System: Linux 6.13.5-zen1-1-zen (en)
+2025-03-05 15:47:02,054 - pyrogram.session.session - INFO - Session started
+2025-03-05 15:47:02,055 - pyrogram.session.session - INFO - PingTask started
+2025-03-05 15:47:02,428 - pyrogram.dispatcher - INFO - Started 16 HandlerTasks
+2025-03-05 15:47:07,019 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 15:47:07,064 - pyrogram.dispatcher - INFO - Stopped 16 HandlerTasks
+2025-03-05 15:47:07,064 - pyrogram.session.session - INFO - PingTask stopped
+2025-03-05 15:47:07,064 - pyrogram.session.session - INFO - NetworkTask stopped
+2025-03-05 15:47:07,064 - pyrogram.connection.connection - INFO - Disconnected
+2025-03-05 15:47:07,064 - pyrogram.session.session - INFO - Session stopped
+2025-03-05 16:05:24,132 - __main__ - INFO - Starting bot...
+2025-03-05 16:05:24,253 - pyrogram.connection.connection - INFO - Connecting...
+2025-03-05 16:05:24,414 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4
+2025-03-05 16:05:24,414 - pyrogram.session.session - INFO - NetworkTask started
+2025-03-05 16:05:25,143 - pyrogram.session.session - INFO - Session initialized: Layer 158
+2025-03-05 16:05:25,143 - pyrogram.session.session - INFO - Device: CPython 3.12.9 - Pyrogram 2.0.106
+2025-03-05 16:05:25,143 - pyrogram.session.session - INFO - System: Linux 6.13.5-zen1-1-zen (en)
+2025-03-05 16:05:25,143 - pyrogram.session.session - INFO - Session started
+2025-03-05 16:05:25,144 - pyrogram.session.session - INFO - PingTask started
+2025-03-05 16:05:25,599 - pyrogram.dispatcher - INFO - Started 16 HandlerTasks
+2025-03-05 16:05:49,065 - pyrogram.connection.connection - INFO - Connecting...
+2025-03-05 16:05:49,147 - pyrogram.connection.connection - INFO - Connected! Production DC5 (media) - IPv4
+2025-03-05 16:05:49,147 - pyrogram.session.session - INFO - NetworkTask started
+2025-03-05 16:05:49,613 - pyrogram.session.session - INFO - Session initialized: Layer 158
+2025-03-05 16:05:49,613 - pyrogram.session.session - INFO - Device: CPython 3.12.9 - Pyrogram 2.0.106
+2025-03-05 16:05:49,613 - pyrogram.session.session - INFO - System: Linux 6.13.5-zen1-1-zen (en)
+2025-03-05 16:05:49,613 - pyrogram.session.session - INFO - Session started
+2025-03-05 16:05:49,614 - pyrogram.session.session - INFO - PingTask started
+2025-03-05 16:05:50,400 - pyrogram.session.session - INFO - PingTask stopped
+2025-03-05 16:05:50,400 - pyrogram.session.session - INFO - NetworkTask stopped
+2025-03-05 16:05:50,400 - pyrogram.connection.connection - INFO - Disconnected
+2025-03-05 16:05:50,400 - pyrogram.session.session - INFO - Session stopped
+2025-03-05 16:05:50,401 - __main__ - INFO - Downloaded file to /home/chirag/Documents/Projects/Startathon/Telegrambot/downloads/punerentagreement.in_edited_Residential-Sample.pdf
+2025-03-05 16:05:50,512 - __main__ - INFO - Trying normal upload method
+2025-03-05 16:05:50,512 - langflow_api - INFO - Processing PDF file: /home/chirag/Documents/Projects/Startathon/Telegrambot/downloads/punerentagreement.in_edited_Residential-Sample.pdf
+2025-03-05 16:05:50,512 - langflow_api - INFO - File size: 520594 bytes
+2025-03-05 16:05:50,512 - langflow_api - INFO - Uploading file to http://127.0.0.1:7860/api/v1/upload
+2025-03-05 16:05:50,515 - langflow_api - ERROR - Error uploading file: status 405, response: {"detail":"Method Not Allowed"}
+2025-03-05 16:05:50,515 - langflow_api - ERROR - File upload failed
+2025-03-05 16:05:50,515 - __main__ - INFO - Falling back to direct processing method
+2025-03-05 16:05:50,621 - langflow_api - INFO - Direct processing of PDF file: /home/chirag/Documents/Projects/Startathon/Telegrambot/downloads/punerentagreement.in_edited_Residential-Sample.pdf
+2025-03-05 16:05:50,621 - langflow_api - INFO - Running flow at http://127.0.0.1:7860/api/v1/run/23c9a4a3-05de-497f-96b5-81515817f2df with message: Please analyze this legal document: punerentagreement.in_edited_Residential-Sample.pdf
+2025-03-05 16:06:00,068 - langflow_api - INFO - Flow executed successfully
+2025-03-05 16:06:00,068 - __main__ - INFO - Deleted temporary file /home/chirag/Documents/Projects/Startathon/Telegrambot/downloads/punerentagreement.in_edited_Residential-Sample.pdf
+2025-03-05 16:10:14,493 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:10:14,692 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:10:14,834 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:10:15,051 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:10:15,244 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:10:15,458 - pyrogram.dispatcher - INFO - Stopped 16 HandlerTasks
+2025-03-05 16:10:15,458 - pyrogram.session.session - INFO - PingTask stopped
+2025-03-05 16:10:15,458 - pyrogram.session.session - INFO - NetworkTask stopped
+2025-03-05 16:10:15,458 - pyrogram.connection.connection - INFO - Disconnected
+2025-03-05 16:10:15,458 - pyrogram.session.session - INFO - Session stopped
+2025-03-05 16:11:13,211 - __main__ - INFO - Starting bot...
+2025-03-05 16:11:13,306 - pyrogram.connection.connection - INFO - Connecting...
+2025-03-05 16:11:13,497 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4
+2025-03-05 16:11:13,497 - pyrogram.session.session - INFO - NetworkTask started
+2025-03-05 16:11:14,120 - pyrogram.session.session - INFO - Session initialized: Layer 158
+2025-03-05 16:11:14,120 - pyrogram.session.session - INFO - Device: CPython 3.12.9 - Pyrogram 2.0.106
+2025-03-05 16:11:14,120 - pyrogram.session.session - INFO - System: Linux 6.13.5-zen1-1-zen (en)
+2025-03-05 16:11:14,120 - pyrogram.session.session - INFO - Session started
+2025-03-05 16:11:14,121 - pyrogram.session.session - INFO - PingTask started
+2025-03-05 16:11:14,522 - pyrogram.dispatcher - INFO - Started 16 HandlerTasks
+2025-03-05 16:11:46,101 - pyrogram.connection.connection - INFO - Connecting...
+2025-03-05 16:11:46,193 - pyrogram.connection.connection - INFO - Connected! Production DC5 (media) - IPv4
+2025-03-05 16:11:46,193 - pyrogram.session.session - INFO - NetworkTask started
+2025-03-05 16:11:46,986 - pyrogram.session.session - INFO - Session initialized: Layer 158
+2025-03-05 16:11:46,986 - pyrogram.session.session - INFO - Device: CPython 3.12.9 - Pyrogram 2.0.106
+2025-03-05 16:11:46,986 - pyrogram.session.session - INFO - System: Linux 6.13.5-zen1-1-zen (en)
+2025-03-05 16:11:46,986 - pyrogram.session.session - INFO - Session started
+2025-03-05 16:11:46,988 - pyrogram.session.session - INFO - PingTask started
+2025-03-05 16:11:49,307 - pyrogram.session.session - INFO - PingTask stopped
+2025-03-05 16:11:49,308 - pyrogram.session.session - INFO - NetworkTask stopped
+2025-03-05 16:11:49,308 - pyrogram.connection.connection - INFO - Disconnected
+2025-03-05 16:11:49,308 - pyrogram.session.session - INFO - Session stopped
+2025-03-05 16:11:49,308 - __main__ - INFO - Downloaded file to /home/chirag/Documents/Projects/Startathon/Telegrambot/downloads/punerentagreement.in_edited_Residential-Sample.pdf
+2025-03-05 16:11:49,573 - __main__ - INFO - Trying normal upload method
+2025-03-05 16:11:49,573 - langflow_api - INFO - Processing PDF file: /home/chirag/Documents/Projects/Startathon/Telegrambot/downloads/punerentagreement.in_edited_Residential-Sample.pdf
+2025-03-05 16:11:49,573 - langflow_api - INFO - File size: 520594 bytes
+2025-03-05 16:11:49,574 - langflow_api - INFO - Uploading file to http://127.0.0.1:7860/api/v1/upload
+2025-03-05 16:11:49,576 - langflow_api - ERROR - Error uploading file: status 405, response: {"detail":"Method Not Allowed"}
+2025-03-05 16:11:49,577 - langflow_api - ERROR - File upload failed
+2025-03-05 16:11:49,577 - __main__ - INFO - Falling back to direct processing method
+2025-03-05 16:11:49,951 - langflow_api - INFO - Direct processing of PDF file: /home/chirag/Documents/Projects/Startathon/Telegrambot/downloads/punerentagreement.in_edited_Residential-Sample.pdf
+2025-03-05 16:11:49,951 - langflow_api - INFO - Running flow at http://127.0.0.1:7860/api/v1/run/23c9a4a3-05de-497f-96b5-81515817f2df with message: Please analyze this legal document: punerentagreement.in_edited_Residential-Sample.pdf
+2025-03-05 16:12:00,436 - langflow_api - INFO - Flow executed successfully
+2025-03-05 16:12:00,437 - __main__ - INFO - Deleted temporary file /home/chirag/Documents/Projects/Startathon/Telegrambot/downloads/punerentagreement.in_edited_Residential-Sample.pdf
+2025-03-05 16:15:35,982 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:15:36,156 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:15:36,308 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:15:37,165 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:15:38,022 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:15:38,138 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:15:38,399 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:15:38,531 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:15:38,594 - root - INFO - Stop signal received (SIGINT). Exiting...
+2025-03-05 16:15:39,401 - pyrogram.dispatcher - INFO - Stopped 16 HandlerTasks
+2025-03-05 16:15:39,401 - pyrogram.session.session - INFO - PingTask stopped
+2025-03-05 16:15:39,401 - pyrogram.session.session - INFO - NetworkTask stopped
+2025-03-05 16:15:39,401 - pyrogram.connection.connection - INFO - Disconnected
+2025-03-05 16:15:39,401 - pyrogram.session.session - INFO - Session stopped
