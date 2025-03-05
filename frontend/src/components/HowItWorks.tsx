@@ -1,5 +1,6 @@
 const HowItWorks = () => {
-    return (
+  return (
+    <section id="how-it-works" className="scroll-mt-20">
       <div className="bg-gray-800 p-6 rounded-lg border border-gray-700 mb-8">
         <h2 className="text-xl font-bold mb-4 text-indigo-400">How It Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -20,8 +21,8 @@ const HowItWorks = () => {
           ))}
         </div>
       </div>
-    );
-  };
-  
-  export default HowItWorks;
-  
+    </section>
+  );
+};
+
+export default HowItWorks;
