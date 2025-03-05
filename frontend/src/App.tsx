@@ -5,16 +5,7 @@
 // import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 // import { useAuthStore } from './store/authStore';
 // import { Auth } from './components/Auth';
-// import { DocumentUpload } from './components/DocumentUpload';
-// import { ChatWidget } from './components/ChatWidget';
-// import { DocumentHistory } from './components/DocumentHistory';
-// import { Document } from './types';
-// import { documents } from './lib/documents';
-// import Navbar from "./components/Navbar";
-// import HeroSection from "./components/HeroSection";
-// import HowItWorks from "./components/HowItWorks";
-// import { Scale, FileText, Users, Brain } from 'lucide-react';
-
+// 
 // function App() {
 //   const { user, setUser } = useAuthStore();
 //   const [userDocuments, setDocuments] = useState<Document[]>([]);
