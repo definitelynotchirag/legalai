@@ -50,21 +50,34 @@ export function DocumentUpload({ onUpload, onSummarize, loading }: DocumentUploa
           </div>
 
           {selectedFile && (
-            <div className="w-full">
-              <div className="bg-gray-700 p-4 rounded-lg mb-4">
-                <p className="text-sm text-gray-300 flex items-center">
-                  <FileText className="w-4 h-4 mr-2 text-indigo-500" />
-                  {selectedFile.name}
-                </p>
+            <div className="w-full bg-gray-700 p-4 rounded-lg flex items-center justify-between">
+              <div className="flex items-center">
+                <FileText className="w-5 h-5 mr-2 text-indigo-500" />
+                <p className="text-sm text-gray-300">{selectedFile.name}</p>
               </div>
               <button
-                onClick={onSummarize}
-                disabled={loading}
-                className="w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:bg-indigo-400 disabled:cursor-not-allowed transition-colors"
+                onClick={() => setSelectedFile(null)}
+                className="text-gray-400 hover:text-red-500 text-xs"
               >
-                {loading ? 'Analyzing Document...' : 'Analyze Document'}
+                Remove
               </button>
             </div>
+          )}
+          {selectedFile && (
+            <button
+              onClick={onSummarize}
+              disabled={loading}
+              className="w-full py-3 px-6 rounded-lg text-white font-medium bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-400 flex justify-center items-center transition-all"
+            >
+              {loading ? (
+                <>
+                  <Loader2 className="w-5 h-5 animate-spin mr-2" />
+                  Analyzing...
+                </>
+              ) : (
+                'Analyze Document'
+              )}
+            </button>
           )}
         </div>
       </div>
